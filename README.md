@@ -41,7 +41,7 @@ pip install -r requirements.txt .
 
 ```
 
-## Inference
+## LongBench
 
 
 We support inference code on `LongBench` to repuduce our result.
