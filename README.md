@@ -1,6 +1,6 @@
 # More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression
 
-This is the official implementation of our paper([arxiv](https://arxiv.org/pdf/2412.12706)). In this papaer, we comprehensively investigate the token-precision trade-off in KV cache compression. Experiments demonstrate that storing more tokens in the KV cache with lower precision, i.e., quantized pruning, can significantly enhance the long-context performance of LLMs. Furthermore, quantized pruning demonstrates notable stability across different KV pruning methods, quantization strategies, and model scales, and show particular improvement in retrieval-related tasks.
+This is the official implementation of our paper([arxiv](https://arxiv.org/pdf/2412.12706)). In this paper, we comprehensively investigate the token-precision trade-off in KV cache compression. Experiments demonstrate that storing more tokens in the KV cache with lower precision, i.e., quantized pruning, can significantly enhance the long-context performance of LLMs. Furthermore, quantized pruning demonstrates notable stability across different KV pruning methods, quantization strategies, and model scales, and show particular improvement in retrieval-related tasks.
 
 ## News
 - [2025-01-5] Our method has been added to [KVCache-Factory](https://github.com/Zefan-Cai/KVCache-Factory/tree/main)!
