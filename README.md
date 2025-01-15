@@ -37,7 +37,7 @@ flash-attn >= 2.5.9.post1
 
 git clone https://github.com/zhzihao/QPruningKV.git
 cd QPruningKV
-pip install -r requirements.txt .
+pip install -r requirements.txt
 
 ```
 
